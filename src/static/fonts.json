@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "name": "Arial"
+  },
+  {
+    "id": "2",
+    "name": "Roboto"
+  },
+  {
+    "id": "3",
+    "name": "Reem"
+  },
+  {
+    "id": "4",
+    "name": "Rasa"
+  },
+  {
+    "id": "5",
+    "name": "Roboto Slab"
+  },
+  {
+    "id": "6",
+    "name": "Roboto Condensed"
+  },
+  {
+    "id": "7",
+    "name": "Roboto Mono"
+  },
+  {
+    "id": "8",
+    "name": "Montserrat"
+  },
+  {
+    "id": "9",
+    "name": "Open Sans"
+  }
+]

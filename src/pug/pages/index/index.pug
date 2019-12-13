@@ -1,0 +1,29 @@
+//- Include used template for this page
+extends ../../templates/default/default
+
+//- VARIABLES FOR INCLUDE THIS IN USED TEMPLATE
+block variables
+  - var title       = 'Custom-Input-Select'
+  - var description = 'Write description for the page here'
+  - var keywords    = 'Write keywords for the page here'
+  - var pageClass   = 'page-index'
+
+block content
+  .container
+    .row
+      .col-lg-3.offset-lg-2.my-5
+        h1.mb-5 Task 1
+        .form-group
+          input(type="text" list="font-types" name="" placeholder="Select item").input-list
+          span.input-list__focus-indicator
+          datalist#font-types
+            option(value="Arial")
+            option(value="Roboto")
+            option(value="Reem")
+            option(value="Rasa")
+      .col-lg-3.offset-lg-1.my-5
+        h1.mb-5 Task 2
+        .form-group
+          input(type="text" name="" placeholder="Select item").input-list#datalist-input
+          span.input-list__focus-indicator
+          ul.input-list__items#datalist-ul
